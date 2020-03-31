@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		A471E81B2433B414009B9955 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A471E8192433B414009B9955 /* Main.storyboard */; };
 		A471E81D2433B416009B9955 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A471E81C2433B416009B9955 /* Assets.xcassets */; };
 		A471E8202433B416009B9955 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A471E81E2433B416009B9955 /* LaunchScreen.storyboard */; };
+		A471E8282433C2F5009B9955 /* dog.png in Resources */ = {isa = PBXBuildFile; fileRef = A471E8272433C2F5009B9955 /* dog.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A471E81C2433B416009B9955 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A471E81F2433B416009B9955 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A471E8212433B416009B9955 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A471E8272433C2F5009B9955 /* dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		A471E8122433B414009B9955 /* FirstApp */ = {
 			isa = PBXGroup;
 			children = (
+				A471E8272433C2F5009B9955 /* dog.png */,
 				A471E8132433B414009B9955 /* AppDelegate.swift */,
 				A471E8152433B414009B9955 /* SceneDelegate.swift */,
 				A471E8172433B414009B9955 /* ViewController.swift */,
@@ -103,7 +106,7 @@
 				};
 			};
 			buildConfigurationList = A471E80B2433B414009B9955 /* Build configuration list for PBXProject "FirstApp" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 11.4";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A471E8282433C2F5009B9955 /* dog.png in Resources */,
 				A471E8202433B416009B9955 /* LaunchScreen.storyboard in Resources */,
 				A471E81D2433B416009B9955 /* Assets.xcassets in Resources */,
 				A471E81B2433B414009B9955 /* Main.storyboard in Resources */,
